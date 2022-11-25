@@ -69,3 +69,12 @@ app.get('/*', (req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening st htto://localhost:${port}`)
   })
+
+/**********************************************************/
+//esta funcion se agregaria para ver la pag web si usaramos algun frame(angular, react, etc) en el cual sera general *
+ 
+//en cuyo caso el usuario responda cualquier cosa q no tengamos especificada con el * es valido
+//app.get('/*', (req, res) => {
+//  res.sendFile(__dirname + '/public/index.html')
+//});
+
